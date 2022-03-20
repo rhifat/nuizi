@@ -1,0 +1,21 @@
+{
+  "name": "Rıfat Sanaç",
+  "title": "Web Developer, Home Musician, Travelmaster, The guru, The master :)",
+  "description": "Yıllardır site yapar dururum.",
+  "thumbnail": "rifat-sanac.png",
+  "social": [
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/rhifat"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/rhifat"
+    },
+    {
+      "name": "Website",
+      "url": "https://rhifat.com"
+    }
+  ],
+  "skills": ["JavaScript", "Gatsby", "Clean Theme"]
+}
