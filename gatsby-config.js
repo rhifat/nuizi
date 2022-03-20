@@ -2,53 +2,58 @@ module.exports = {
   flags: {
     DEV_SSR: false
   },
+  pathPrefix: "/nuizi",
+ 
   plugins: [
     {
       resolve: '@elegantstack/gatsby-theme-flexiblog-news',
       options: {
         // Add theme options here. Check documentation for available options.
-        siteUrl: process.env.URL || process.env.VERCEL_URL
+        siteUrl: process.env.URL || process.env.VERCEL_URL,
+        
       }
     }
   ],
+
+  
   // Customize your site metadata:
   siteMetadata: {
     //General Site Metadata
-    title: 'FlexiBlog Theme',
-    name: 'FlexiBlog',
-    description: 'My site description...',
-    address: 'New York, NY',
-    email: 'email@example.com',
+    title: 'Nuizi.com',
+    name: 'Nuizi',
+    description: 'Yeni nesil bilgi-eğlence sitesi',
+    address: 'Türkiye',
+    email: 'nuizidotcom@gmail.com',
     phone: '+1 (888) 888-8888',
 
     //Site Social Media Links
     social: [
       {
         name: 'Github',
-        url: 'https://github.com/gatsbyjs'
+        url: 'https://github.com/rhifat'
       },
       {
         name: 'Twitter',
-        url: 'https://twitter.com/gatsbyjs'
+        url: 'https://twitter.com/nuizi01'
       },
       {
         name: 'Instagram',
-        url: 'https://github.com/gatsbyjs'
+        url: 'https://github.com/nuizi-dot-com'
       }
     ],
 
     //Header Menu Items
     headerMenu: [
       {
-        name: 'Home',
+        name: 'Ana Sayfa',
         slug: '/'
       },
       {
-        name: 'Our Team',
+        name: 'Yazarlarımız',
         slug: '/authors'
       },
       {
-        name: 'Contact',
+        name: 'İletişim',
         slug: '/contact'
       }
     ],
@@ -56,18 +61,18 @@ module.exports = {
     //Footer Menu Items (2 Sets)
     footerMenu: [
       {
-        title: 'Quick Links',
+        title: 'Hızlı Linkler',
         items: [
           {
-            name: 'Advertise with us',
+            name: 'Görüş Öneri İletişim',
             slug: '/contact'
           },
           {
-            name: 'About Us',
+            name: 'Hakkımızda',
             slug: '/about'
           },
           {
-            name: 'Contact Us',
+            name: 'İletişim',
             slug: '/contact'
           }
         ]
